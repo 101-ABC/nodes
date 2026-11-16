@@ -1,0 +1,103 @@
+{
+  "_comment": "数据源清单。enable=false 可临时停用；url 必须直链到文本文件（base64 或明文链接列表）。",
+  "interval_hours": 3,
+  "probe": {
+    "timeout": 2.0,
+    "concurrency": 512,
+    "best_min_streak": 6,
+    "best_limit": 50,
+    "full_limit": 500,
+    "state_ttl_hours": 72
+  },
+  "output": {
+    "user": "101-ABC",
+    "base_url": "https://101-abc.github.io/nodes",
+    "node_prefix": ""
+  },
+  "sources": [
+    {
+      "id": "nomorewalls",
+      "repo": "peasoft/NoMoreWalls",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
+    },
+    {
+      "id": "barryfar",
+      "repo": "barry-far/V2ray-Configs",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt"
+    },
+    {
+      "id": "epodonios",
+      "repo": "Epodonios/v2ray-configs",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt"
+    },
+    {
+      "id": "mahdibland",
+      "repo": "mahdibland/ShadowsocksAggregator",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt"
+    },
+    {
+      "id": "ripaojiedian",
+      "repo": "ripaojiedian/freenode",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub"
+    },
+    {
+      "id": "ermaozi",
+      "repo": "ermaozi/get_subscribe",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/sub/sub_merge.txt"
+    },
+    {
+      "id": "aiboboxx",
+      "repo": "aiboboxx/v2rayfree",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
+    },
+    {
+      "id": "mfuu",
+      "repo": "mfuu/v2ray",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
+    },
+    {
+      "id": "pawdroid",
+      "repo": "Pawdroid/Free-servers",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    },
+    {
+      "id": "yebekhe",
+      "repo": "yebekhe/TelegramV2rayCollector",
+      "cat": "tg",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix"
+    },
+    {
+      "id": "soroush",
+      "repo": "soroushmirzaei/telegram-configs-collector",
+      "cat": "tg",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless"
+    },
+    {
+      "id": "autoproxy",
+      "repo": "w1770946466/Auto_proxy",
+      "cat": "public",
+      "enable": true,
+      "url": "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num"
+    }
+  ]
+}

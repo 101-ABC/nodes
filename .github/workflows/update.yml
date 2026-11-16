@@ -1,0 +1,46 @@
+name: sync-nodes
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"      # 每 3 小时一次（UTC）
+  workflow_dispatch: {}         # 也可在 Actions 页面手动点一次
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-nodes
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 采集（抓取 → 解析 → 测活 → 生成）
+        run: python collector/main.py
+
+      - name: 提交产物
+        run: |
+          git config user.name  "nodarium-bot"
+          git config user.email "nodarium-bot@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "本轮无变化，跳过提交"
+          else
+            git commit -m "chore(sync): $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: 摘要
+        if: always()
+        run: python collector/report.py >> "$GITHUB_STEP_SUMMARY" || true

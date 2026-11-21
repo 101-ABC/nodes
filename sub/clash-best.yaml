@@ -7,31 +7,41 @@ log-level: warning
 ipv6: false
 
 proxies:
-  - name: "[159ms] IT 意大利 | ITA #10"
+  - name: "[106ms] IT 意大利 | ITA #1"
     type: ss
     server: "202.50.253.27"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[165ms] IT 意大利 | ITA #7"
+  - name: "[105ms] IT 意大利 | ITA #4"
     type: ss
     server: "202.50.253.63"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[163ms] IT 意大利 | ITA #4"
+  - name: "[107ms] IT [www.v2nodes.com] ss-IT-"
     type: ss
     server: "202.50.253.45"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[175ms] IT 意大利 | ITA #8"
-    type: ss
-    server: "202.50.253.54"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[23ms] US 美国4|@ripaojiedian"
+  - name: "[503ms] -- [www.v2nodes.com] trojan"
+    type: trojan
+    server: "sclass-01.catcat321.com"
+    port: 20103
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    udp: true
+    skip-cert-verify: false
+    sni: "hk.catxstar.com"
+  - name: "[18ms] US 美国5|@ripaojiedian"
+    type: trojan
+    server: "151.101.110.219"
+    port: 443
+    password: "Mitivpn"
+    udp: true
+    skip-cert-verify: false
+    sni: "ssl.fastly.com"
+  - name: "[19ms] US 美国4|@ripaojiedian"
     type: trojan
     server: "167.82.76.27"
     port: 443
@@ -39,22 +49,25 @@ proxies:
     udp: true
     skip-cert-verify: false
     sni: "ssl.fastly.com"
-  - name: "[23ms] US 美国2|@ripaojiedian"
-    type: vless
-    server: "172.235.53.103"
-    port: 443
-    uuid: "38ae2bc6-577c-4e0a-b49c-81c44a0b4383"
-    encryption: none
-    udp: true
-    tls: true
-    servername: "itunes.apple.com"
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: "/wsflow="
-      headers:
-        Host: "itunes.apple.com"
-  - name: "[23ms] US 美国3|@ripaojiedian"
+  - name: "[23ms] CA [www.v2nodes.com] ss-CA-"
+    type: ss
+    server: "51.222.200.165"
+    port: 5000
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+  - name: "[23ms] CA [www.v2nodes.com] ss-CA-"
+    type: ss
+    server: "51.222.12.127"
+    port: 445
+    cipher: "aes-256-gcm"
+    password: "zDNVedRFPQexG9v"
+  - name: "[24ms] CA [www.v2nodes.com] ss-CA-"
+    type: ss
+    server: "51.222.155.113"
+    port: 5601
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+  - name: "[59ms] US 美国3|@ripaojiedian"
     type: vless
     server: "172.236.239.126"
     port: 443
@@ -69,15 +82,148 @@ proxies:
       path: "/wsflow="
       headers:
         Host: "itunes.apple.com"
-  - name: "[23ms] US 美国5|@ripaojiedian"
-    type: trojan
-    server: "151.101.110.219"
+  - name: "[64ms] US 美国2|@ripaojiedian"
+    type: vless
+    server: "172.235.53.103"
     port: 443
-    password: "Mitivpn"
+    uuid: "38ae2bc6-577c-4e0a-b49c-81c44a0b4383"
+    encryption: none
     udp: true
+    tls: true
+    servername: "itunes.apple.com"
     skip-cert-verify: false
-    sni: "ssl.fastly.com"
-  - name: "[31ms] US 美国 | USA #4"
+    network: ws
+    ws-opts:
+      path: "/wsflow="
+      headers:
+        Host: "itunes.apple.com"
+  - name: "[76ms] ES 5.188.181.201-5267"
+    type: ss
+    server: "5.188.181.201"
+    port: 9031
+    cipher: "aes-256-cfb"
+    password: "BwcAUZk8hUFAkDGN"
+  - name: "[77ms] -- 🏳[www.v2nodes.com] ss- #"
+    type: ss
+    server: "51.79.85.185"
+    port: 8118
+    cipher: "aes-256-gcm"
+    password: "cdBIDV42DCwnfIN"
+  - name: "[77ms] ES 5.188.181.201-7486"
+    type: ss
+    server: "5.188.181.201"
+    port: 9030
+    cipher: "aes-256-cfb"
+    password: "GeregetR8cvQHzYr"
+  - name: "[79ms] ES 5.188.181.201-7484"
+    type: ss
+    server: "5.188.181.201"
+    port: 9037
+    cipher: "aes-256-cfb"
+    password: "TN2YqghxeFDKZfLU"
+  - name: "[80ms] GB [www.v2nodes.com] ss-GB-"
+    type: ss
+    server: "142.202.51.22"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[81ms] GB [www.v2nodes.com] ss-GB-"
+    type: ss
+    server: "198.244.201.129"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[82ms] -- 🏳[www.v2nodes.com] ss- #"
+    type: ss
+    server: "198.244.202.215"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[82ms] GB [www.v2nodes.com] ss-GB-"
+    type: ss
+    server: "38.114.120.221"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[82ms] GB [www.v2nodes.com] ss-GB-"
+    type: ss
+    server: "185.176.206.9"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[85ms] GB [www.v2nodes.com] ss-GB-"
+    type: ss
+    server: "158.173.24.73"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "[88ms] NL [www.v2nodes.com] ss-NL-"
+    type: ss
+    server: "151.241.19.36"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[89ms] NL [www.v2nodes.com] ss-NL-"
+    type: ss
+    server: "151.241.19.29"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[90ms] FR [www.v2nodes.com] ss-FR-"
+    type: ss
+    server: "167.17.64.27"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[90ms] GB [www.v2nodes.com] ss-GB-"
+    type: ss
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "[90ms] GB [www.v2nodes.com] ss-GB-"
+    type: ss
+    server: "141.98.101.178"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+  - name: "[90ms] US [www.v2nodes.com] ss-US-"
+    type: ss
+    server: "23.230.52.119"
+    port: 42878
+    cipher: "chacha20-ietf-poly1305"
+    password: "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
+  - name: "[91ms] -- 🏳[www.v2nodes.com] ss- #"
+    type: ss
+    server: "156.67.120.205"
+    port: 51628
+    cipher: "chacha20-ietf-poly1305"
+    password: "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
+  - name: "[91ms] NL 109.201.152.181-0162"
+    type: ss
+    server: "109.201.152.181"
+    port: 443
+    cipher: "aes-128-cfb"
+    password: "shadowsocks"
+  - name: "[92ms] -- 🏳[www.v2nodes.com] ss- #"
+    type: ss
+    server: "23.162.152.22"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[92ms] FR [www.v2nodes.com] ss-FR-"
+    type: ss
+    server: "172.99.189.142"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[92ms] FR [www.v2nodes.com] ss-FR-"
+    type: ss
+    server: "167.17.64.175"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[93ms] US 美国 | USA #7"
     type: vmess
     server: "192.74.236.148"
     port: 30004
@@ -93,271 +239,110 @@ proxies:
       path: "/path/1733477783705"
       headers:
         Host: "www.91334565.xyz"
-  - name: "[60ms] CA [www.v2nodes.com] trojan"
-    type: trojan
-    server: "216.152.147.93"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    skip-cert-verify: false
-    sni: "connectingpeoplewithgreatjobs.com"
-  - name: "[61ms] -- 🏳[www.v2nodes.com] troja"
-    type: trojan
-    server: "216.152.147.79"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    skip-cert-verify: false
-    sni: "blog.connectingpeoplewithgreatjobs.com"
-  - name: "[76ms] CA [www.v2nodes.com] ss-CA-"
-    type: ss
-    server: "51.79.85.185"
-    port: 8118
-    cipher: "aes-256-gcm"
-    password: "cdBIDV42DCwnfIN"
-  - name: "[77ms] -- 🏳[www.v2nodes.com] ss"
-    type: ss
-    server: "51.222.200.165"
-    port: 5000
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-  - name: "[77ms] CA [www.v2nodes.com] ss-CA-"
-    type: ss
-    server: "51.222.12.127"
-    port: 445
-    cipher: "aes-256-gcm"
-    password: "zDNVedRFPQexG9v"
-  - name: "[90ms] CA [www.v2nodes.com] ss-CA-"
-    type: ss
-    server: "51.222.155.113"
-    port: 5601
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-  - name: "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-    type: ss
-    server: "149.22.87.204"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-    type: ss
-    server: "149.22.87.240"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "[109ms] JP [www.v2nodes.com] ss-JP-"
-    type: ss
-    server: "149.22.87.241"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "[109ms] JP 日本3|@ripaojiedian"
-    type: vless
-    server: "172.105.216.21"
-    port: 443
-    uuid: "76f1ce49-bcea-4680-b9ef-16592269445b"
-    encryption: none
-    udp: true
-    tls: true
-    servername: "itunes.apple.com"
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: "/wsflow="
-      headers:
-        Host: "itunes.apple.com"
-  - name: "[117ms] ES 5.188.181.201-7484"
-    type: ss
-    server: "5.188.181.201"
-    port: 9037
-    cipher: "aes-256-cfb"
-    password: "TN2YqghxeFDKZfLU"
-  - name: "[118ms] ES 5.188.181.201-7486"
-    type: ss
-    server: "5.188.181.201"
-    port: 9030
-    cipher: "aes-256-cfb"
-    password: "GeregetR8cvQHzYr"
-  - name: "[120ms] ES 5.188.181.201-5267"
-    type: ss
-    server: "5.188.181.201"
-    port: 9031
-    cipher: "aes-256-cfb"
-    password: "BwcAUZk8hUFAkDGN"
-  - name: "[128ms] GB [www.v2nodes.com] ss-GB-"
-    type: ss
-    server: "141.98.101.181"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "[129ms] KR [www.v2nodes.com] trojan"
-    type: trojan
-    server: "158.247.253.243"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    skip-cert-verify: false
-    sni: "connectgraduateswithjobopeningsandgrowprofessionally.com"
-  - name: "[130ms] GB [www.v2nodes.com] ss-GB-"
-    type: ss
-    server: "141.98.101.178"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "[132ms] NL [www.v2nodes.com] ss-NL-"
-    type: ss
-    server: "156.67.120.205"
-    port: 51628
-    cipher: "chacha20-ietf-poly1305"
-    password: "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
-  - name: "[132ms] NL [www.v2nodes.com] ss-NL-"
-    type: ss
-    server: "151.241.19.36"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[133ms] NL 109.201.152.181-0162"
-    type: ss
-    server: "109.201.152.181"
-    port: 443
-    cipher: "aes-128-cfb"
-    password: "shadowsocks"
-  - name: "[134ms] NL [www.v2nodes.com] ss-NL-"
-    type: ss
-    server: "151.241.19.29"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[136ms] GB [www.v2nodes.com] ss-GB-"
-    type: ss
-    server: "158.173.24.73"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-  - name: "[141ms] -- 🏳[www.v2nodes.com] ss- #"
-    type: ss
-    server: "38.114.120.221"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[143ms] NO [www.v2nodes.com] ss-NO-"
-    type: ss
-    server: "185.213.23.63"
-    port: 990
-    cipher: "chacha20-ietf-poly1305"
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-  - name: "[143ms] AU [www.v2nodes.com] trojan"
-    type: trojan
-    server: "45.63.30.142"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    skip-cert-verify: false
-    sni: "connectwithemployerstohireyouridealteam.com"
-  - name: "[144ms] GB [www.v2nodes.com] ss-GB-"
-    type: ss
-    server: "198.244.201.129"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[144ms] GB [www.v2nodes.com] ss-GB-"
-    type: ss
-    server: "198.244.202.215"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[145ms] AT [www.v2nodes.com] ss-AT-"
-    type: ss
-    server: "152.53.1.57"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
-  - name: "[145ms] -- 🏳[www.v2nodes.com] ss- #"
-    type: ss
-    server: "185.176.206.9"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[145ms] JP [www.v2nodes.com] ss-JP-"
-    type: ss
-    server: "84.247.155.196"
-    port: 80
-    cipher: "aes-256-gcm"
-    password: "3eOFeNssde7PYYMv"
-  - name: "[146ms] FR [www.v2nodes.com] ss-FR-"
-    type: ss
-    server: "167.17.64.175"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[148ms] FR [www.v2nodes.com] ss-FR-"
+  - name: "[94ms] -- 🏳[www.v2nodes.com] ss- #"
     type: ss
     server: "38.109.228.110"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[148ms] FR [www.v2nodes.com] ss-FR-"
+  - name: "[94ms] FR [www.v2nodes.com] ss-FR-"
     type: ss
     server: "167.17.64.22"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[148ms] GB [www.v2nodes.com] ss-GB-"
+  - name: "[100ms] ES [www.v2nodes.com] ss-ES-"
     type: ss
-    server: "142.202.51.22"
+    server: "66.163.118.103"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[148ms] US [www.v2nodes.com] ss-US-"
-    type: ss
-    server: "23.230.52.119"
-    port: 42878
-    cipher: "chacha20-ietf-poly1305"
-    password: "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
-  - name: "[151ms] FR [www.v2nodes.com] ss-FR-"
-    type: ss
-    server: "23.162.152.22"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[152ms] FR [www.v2nodes.com] ss-FR-"
-    type: ss
-    server: "167.17.64.27"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[152ms] BR [www.v2nodes.com] trojan"
-    type: trojan
-    server: "216.238.104.154"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    skip-cert-verify: false
-    sni: "—"
-  - name: "[153ms] AT [www.v2nodes.com] ss-AT-"
+  - name: "[103ms] AT [www.v2nodes.com] ss-AT-"
     type: ss
     server: "82.110.60.9"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[154ms] FR [www.v2nodes.com] ss-FR-"
+  - name: "[103ms] CH [www.v2nodes.com] ss-CH-"
     type: ss
-    server: "172.99.189.142"
+    server: "23.166.88.127"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "[155ms] FI [www.v2nodes.com] ss-FI-"
+  - name: "[103ms] FI [www.v2nodes.com] ss-FI-"
     type: ss
     server: "213.176.92.148"
     port: 40647
     cipher: "aes-256-gcm"
     password: "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
-  - name: "[158ms] ES [www.v2nodes.com] ss-ES-"
+  - name: "[103ms] IT 意大利 | ITA #6"
+    type: ss
+    server: "202.50.253.81"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[103ms] NO [www.v2nodes.com] ss-NO-"
+    type: ss
+    server: "185.213.23.63"
+    port: 990
+    cipher: "chacha20-ietf-poly1305"
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+  - name: "[104ms] AT [www.v2nodes.com] ss-AT-"
+    type: ss
+    server: "152.53.1.57"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
+  - name: "[104ms] IT 意大利 | ITA #2"
+    type: ss
+    server: "202.50.253.36"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[105ms] IT 意大利 | ITA #8"
+    type: ss
+    server: "202.50.253.99"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[105ms] IT 意大利 | ITA #3"
+    type: ss
+    server: "202.50.253.54"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[107ms] CH [www.v2nodes.com] ss-CH-"
+    type: ss
+    server: "186.190.215.251"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[107ms] -- 🏳[www.v2nodes.com] ss- #"
     type: ss
     server: "167.17.71.167"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[107ms] IT [www.v2nodes.com] ss-IT-"
+    type: ss
+    server: "185.164.175.81"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[108ms] ES [www.v2nodes.com] ss-ES-"
+    type: ss
+    server: "79.127.139.242"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "[111ms] CH [www.v2nodes.com] trojan"
+    type: trojan
+    server: "208.69.78.33"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    skip-cert-verify: false
+    sni: "courses.yourultimateprofessionalcareerhub.com"
 
 proxy-groups:
   - name: "自动选择"
@@ -366,166 +351,166 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "[159ms] IT 意大利 | ITA #10"
-      - "[165ms] IT 意大利 | ITA #7"
-      - "[163ms] IT 意大利 | ITA #4"
-      - "[175ms] IT 意大利 | ITA #8"
-      - "[23ms] US 美国4|@ripaojiedian"
-      - "[23ms] US 美国2|@ripaojiedian"
-      - "[23ms] US 美国3|@ripaojiedian"
-      - "[23ms] US 美国5|@ripaojiedian"
-      - "[31ms] US 美国 | USA #4"
-      - "[60ms] CA [www.v2nodes.com] trojan"
-      - "[61ms] -- 🏳[www.v2nodes.com] troja"
-      - "[76ms] CA [www.v2nodes.com] ss-CA-"
-      - "[77ms] -- 🏳[www.v2nodes.com] ss"
-      - "[77ms] CA [www.v2nodes.com] ss-CA-"
-      - "[90ms] CA [www.v2nodes.com] ss-CA-"
-      - "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[109ms] JP [www.v2nodes.com] ss-JP-"
-      - "[109ms] JP 日本3|@ripaojiedian"
-      - "[117ms] ES 5.188.181.201-7484"
-      - "[118ms] ES 5.188.181.201-7486"
-      - "[120ms] ES 5.188.181.201-5267"
-      - "[128ms] GB [www.v2nodes.com] ss-GB-"
-      - "[129ms] KR [www.v2nodes.com] trojan"
-      - "[130ms] GB [www.v2nodes.com] ss-GB-"
-      - "[132ms] NL [www.v2nodes.com] ss-NL-"
-      - "[132ms] NL [www.v2nodes.com] ss-NL-"
-      - "[133ms] NL 109.201.152.181-0162"
-      - "[134ms] NL [www.v2nodes.com] ss-NL-"
-      - "[136ms] GB [www.v2nodes.com] ss-GB-"
-      - "[141ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[143ms] NO [www.v2nodes.com] ss-NO-"
-      - "[143ms] AU [www.v2nodes.com] trojan"
-      - "[144ms] GB [www.v2nodes.com] ss-GB-"
-      - "[144ms] GB [www.v2nodes.com] ss-GB-"
-      - "[145ms] AT [www.v2nodes.com] ss-AT-"
-      - "[145ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[145ms] JP [www.v2nodes.com] ss-JP-"
-      - "[146ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] GB [www.v2nodes.com] ss-GB-"
-      - "[148ms] US [www.v2nodes.com] ss-US-"
-      - "[151ms] FR [www.v2nodes.com] ss-FR-"
-      - "[152ms] FR [www.v2nodes.com] ss-FR-"
-      - "[152ms] BR [www.v2nodes.com] trojan"
-      - "[153ms] AT [www.v2nodes.com] ss-AT-"
-      - "[154ms] FR [www.v2nodes.com] ss-FR-"
-      - "[155ms] FI [www.v2nodes.com] ss-FI-"
-      - "[158ms] ES [www.v2nodes.com] ss-ES-"
+      - "[106ms] IT 意大利 | ITA #1"
+      - "[105ms] IT 意大利 | ITA #4"
+      - "[107ms] IT [www.v2nodes.com] ss-IT-"
+      - "[503ms] -- [www.v2nodes.com] trojan"
+      - "[18ms] US 美国5|@ripaojiedian"
+      - "[19ms] US 美国4|@ripaojiedian"
+      - "[23ms] CA [www.v2nodes.com] ss-CA-"
+      - "[23ms] CA [www.v2nodes.com] ss-CA-"
+      - "[24ms] CA [www.v2nodes.com] ss-CA-"
+      - "[59ms] US 美国3|@ripaojiedian"
+      - "[64ms] US 美国2|@ripaojiedian"
+      - "[76ms] ES 5.188.181.201-5267"
+      - "[77ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[77ms] ES 5.188.181.201-7486"
+      - "[79ms] ES 5.188.181.201-7484"
+      - "[80ms] GB [www.v2nodes.com] ss-GB-"
+      - "[81ms] GB [www.v2nodes.com] ss-GB-"
+      - "[82ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[82ms] GB [www.v2nodes.com] ss-GB-"
+      - "[82ms] GB [www.v2nodes.com] ss-GB-"
+      - "[85ms] GB [www.v2nodes.com] ss-GB-"
+      - "[88ms] NL [www.v2nodes.com] ss-NL-"
+      - "[89ms] NL [www.v2nodes.com] ss-NL-"
+      - "[90ms] FR [www.v2nodes.com] ss-FR-"
+      - "[90ms] GB [www.v2nodes.com] ss-GB-"
+      - "[90ms] GB [www.v2nodes.com] ss-GB-"
+      - "[90ms] US [www.v2nodes.com] ss-US-"
+      - "[91ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[91ms] NL 109.201.152.181-0162"
+      - "[92ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[92ms] FR [www.v2nodes.com] ss-FR-"
+      - "[92ms] FR [www.v2nodes.com] ss-FR-"
+      - "[93ms] US 美国 | USA #7"
+      - "[94ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[94ms] FR [www.v2nodes.com] ss-FR-"
+      - "[100ms] ES [www.v2nodes.com] ss-ES-"
+      - "[103ms] AT [www.v2nodes.com] ss-AT-"
+      - "[103ms] CH [www.v2nodes.com] ss-CH-"
+      - "[103ms] FI [www.v2nodes.com] ss-FI-"
+      - "[103ms] IT 意大利 | ITA #6"
+      - "[103ms] NO [www.v2nodes.com] ss-NO-"
+      - "[104ms] AT [www.v2nodes.com] ss-AT-"
+      - "[104ms] IT 意大利 | ITA #2"
+      - "[105ms] IT 意大利 | ITA #8"
+      - "[105ms] IT 意大利 | ITA #3"
+      - "[107ms] CH [www.v2nodes.com] ss-CH-"
+      - "[107ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[107ms] IT [www.v2nodes.com] ss-IT-"
+      - "[108ms] ES [www.v2nodes.com] ss-ES-"
+      - "[111ms] CH [www.v2nodes.com] trojan"
   - name: "故障转移"
     type: fallback
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     proxies:
-      - "[159ms] IT 意大利 | ITA #10"
-      - "[165ms] IT 意大利 | ITA #7"
-      - "[163ms] IT 意大利 | ITA #4"
-      - "[175ms] IT 意大利 | ITA #8"
-      - "[23ms] US 美国4|@ripaojiedian"
-      - "[23ms] US 美国2|@ripaojiedian"
-      - "[23ms] US 美国3|@ripaojiedian"
-      - "[23ms] US 美国5|@ripaojiedian"
-      - "[31ms] US 美国 | USA #4"
-      - "[60ms] CA [www.v2nodes.com] trojan"
-      - "[61ms] -- 🏳[www.v2nodes.com] troja"
-      - "[76ms] CA [www.v2nodes.com] ss-CA-"
-      - "[77ms] -- 🏳[www.v2nodes.com] ss"
-      - "[77ms] CA [www.v2nodes.com] ss-CA-"
-      - "[90ms] CA [www.v2nodes.com] ss-CA-"
-      - "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[109ms] JP [www.v2nodes.com] ss-JP-"
-      - "[109ms] JP 日本3|@ripaojiedian"
-      - "[117ms] ES 5.188.181.201-7484"
-      - "[118ms] ES 5.188.181.201-7486"
-      - "[120ms] ES 5.188.181.201-5267"
-      - "[128ms] GB [www.v2nodes.com] ss-GB-"
-      - "[129ms] KR [www.v2nodes.com] trojan"
-      - "[130ms] GB [www.v2nodes.com] ss-GB-"
-      - "[132ms] NL [www.v2nodes.com] ss-NL-"
-      - "[132ms] NL [www.v2nodes.com] ss-NL-"
-      - "[133ms] NL 109.201.152.181-0162"
-      - "[134ms] NL [www.v2nodes.com] ss-NL-"
-      - "[136ms] GB [www.v2nodes.com] ss-GB-"
-      - "[141ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[143ms] NO [www.v2nodes.com] ss-NO-"
-      - "[143ms] AU [www.v2nodes.com] trojan"
-      - "[144ms] GB [www.v2nodes.com] ss-GB-"
-      - "[144ms] GB [www.v2nodes.com] ss-GB-"
-      - "[145ms] AT [www.v2nodes.com] ss-AT-"
-      - "[145ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[145ms] JP [www.v2nodes.com] ss-JP-"
-      - "[146ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] GB [www.v2nodes.com] ss-GB-"
-      - "[148ms] US [www.v2nodes.com] ss-US-"
-      - "[151ms] FR [www.v2nodes.com] ss-FR-"
-      - "[152ms] FR [www.v2nodes.com] ss-FR-"
-      - "[152ms] BR [www.v2nodes.com] trojan"
-      - "[153ms] AT [www.v2nodes.com] ss-AT-"
-      - "[154ms] FR [www.v2nodes.com] ss-FR-"
-      - "[155ms] FI [www.v2nodes.com] ss-FI-"
-      - "[158ms] ES [www.v2nodes.com] ss-ES-"
+      - "[106ms] IT 意大利 | ITA #1"
+      - "[105ms] IT 意大利 | ITA #4"
+      - "[107ms] IT [www.v2nodes.com] ss-IT-"
+      - "[503ms] -- [www.v2nodes.com] trojan"
+      - "[18ms] US 美国5|@ripaojiedian"
+      - "[19ms] US 美国4|@ripaojiedian"
+      - "[23ms] CA [www.v2nodes.com] ss-CA-"
+      - "[23ms] CA [www.v2nodes.com] ss-CA-"
+      - "[24ms] CA [www.v2nodes.com] ss-CA-"
+      - "[59ms] US 美国3|@ripaojiedian"
+      - "[64ms] US 美国2|@ripaojiedian"
+      - "[76ms] ES 5.188.181.201-5267"
+      - "[77ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[77ms] ES 5.188.181.201-7486"
+      - "[79ms] ES 5.188.181.201-7484"
+      - "[80ms] GB [www.v2nodes.com] ss-GB-"
+      - "[81ms] GB [www.v2nodes.com] ss-GB-"
+      - "[82ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[82ms] GB [www.v2nodes.com] ss-GB-"
+      - "[82ms] GB [www.v2nodes.com] ss-GB-"
+      - "[85ms] GB [www.v2nodes.com] ss-GB-"
+      - "[88ms] NL [www.v2nodes.com] ss-NL-"
+      - "[89ms] NL [www.v2nodes.com] ss-NL-"
+      - "[90ms] FR [www.v2nodes.com] ss-FR-"
+      - "[90ms] GB [www.v2nodes.com] ss-GB-"
+      - "[90ms] GB [www.v2nodes.com] ss-GB-"
+      - "[90ms] US [www.v2nodes.com] ss-US-"
+      - "[91ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[91ms] NL 109.201.152.181-0162"
+      - "[92ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[92ms] FR [www.v2nodes.com] ss-FR-"
+      - "[92ms] FR [www.v2nodes.com] ss-FR-"
+      - "[93ms] US 美国 | USA #7"
+      - "[94ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[94ms] FR [www.v2nodes.com] ss-FR-"
+      - "[100ms] ES [www.v2nodes.com] ss-ES-"
+      - "[103ms] AT [www.v2nodes.com] ss-AT-"
+      - "[103ms] CH [www.v2nodes.com] ss-CH-"
+      - "[103ms] FI [www.v2nodes.com] ss-FI-"
+      - "[103ms] IT 意大利 | ITA #6"
+      - "[103ms] NO [www.v2nodes.com] ss-NO-"
+      - "[104ms] AT [www.v2nodes.com] ss-AT-"
+      - "[104ms] IT 意大利 | ITA #2"
+      - "[105ms] IT 意大利 | ITA #8"
+      - "[105ms] IT 意大利 | ITA #3"
+      - "[107ms] CH [www.v2nodes.com] ss-CH-"
+      - "[107ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[107ms] IT [www.v2nodes.com] ss-IT-"
+      - "[108ms] ES [www.v2nodes.com] ss-ES-"
+      - "[111ms] CH [www.v2nodes.com] trojan"
   - name: "手动选择"
     type: select
     proxies:
       - "自动选择"
       - "故障转移"
-      - "[159ms] IT 意大利 | ITA #10"
-      - "[165ms] IT 意大利 | ITA #7"
-      - "[163ms] IT 意大利 | ITA #4"
-      - "[175ms] IT 意大利 | ITA #8"
-      - "[23ms] US 美国4|@ripaojiedian"
-      - "[23ms] US 美国2|@ripaojiedian"
-      - "[23ms] US 美国3|@ripaojiedian"
-      - "[23ms] US 美国5|@ripaojiedian"
-      - "[31ms] US 美国 | USA #4"
-      - "[60ms] CA [www.v2nodes.com] trojan"
-      - "[61ms] -- 🏳[www.v2nodes.com] troja"
-      - "[76ms] CA [www.v2nodes.com] ss-CA-"
-      - "[77ms] -- 🏳[www.v2nodes.com] ss"
-      - "[77ms] CA [www.v2nodes.com] ss-CA-"
-      - "[90ms] CA [www.v2nodes.com] ss-CA-"
-      - "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[108ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[109ms] JP [www.v2nodes.com] ss-JP-"
-      - "[109ms] JP 日本3|@ripaojiedian"
-      - "[117ms] ES 5.188.181.201-7484"
-      - "[118ms] ES 5.188.181.201-7486"
-      - "[120ms] ES 5.188.181.201-5267"
-      - "[128ms] GB [www.v2nodes.com] ss-GB-"
-      - "[129ms] KR [www.v2nodes.com] trojan"
-      - "[130ms] GB [www.v2nodes.com] ss-GB-"
-      - "[132ms] NL [www.v2nodes.com] ss-NL-"
-      - "[132ms] NL [www.v2nodes.com] ss-NL-"
-      - "[133ms] NL 109.201.152.181-0162"
-      - "[134ms] NL [www.v2nodes.com] ss-NL-"
-      - "[136ms] GB [www.v2nodes.com] ss-GB-"
-      - "[141ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[143ms] NO [www.v2nodes.com] ss-NO-"
-      - "[143ms] AU [www.v2nodes.com] trojan"
-      - "[144ms] GB [www.v2nodes.com] ss-GB-"
-      - "[144ms] GB [www.v2nodes.com] ss-GB-"
-      - "[145ms] AT [www.v2nodes.com] ss-AT-"
-      - "[145ms] -- 🏳[www.v2nodes.com] ss- #"
-      - "[145ms] JP [www.v2nodes.com] ss-JP-"
-      - "[146ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] FR [www.v2nodes.com] ss-FR-"
-      - "[148ms] GB [www.v2nodes.com] ss-GB-"
-      - "[148ms] US [www.v2nodes.com] ss-US-"
-      - "[151ms] FR [www.v2nodes.com] ss-FR-"
-      - "[152ms] FR [www.v2nodes.com] ss-FR-"
-      - "[152ms] BR [www.v2nodes.com] trojan"
-      - "[153ms] AT [www.v2nodes.com] ss-AT-"
-      - "[154ms] FR [www.v2nodes.com] ss-FR-"
-      - "[155ms] FI [www.v2nodes.com] ss-FI-"
-      - "[158ms] ES [www.v2nodes.com] ss-ES-"
+      - "[106ms] IT 意大利 | ITA #1"
+      - "[105ms] IT 意大利 | ITA #4"
+      - "[107ms] IT [www.v2nodes.com] ss-IT-"
+      - "[503ms] -- [www.v2nodes.com] trojan"
+      - "[18ms] US 美国5|@ripaojiedian"
+      - "[19ms] US 美国4|@ripaojiedian"
+      - "[23ms] CA [www.v2nodes.com] ss-CA-"
+      - "[23ms] CA [www.v2nodes.com] ss-CA-"
+      - "[24ms] CA [www.v2nodes.com] ss-CA-"
+      - "[59ms] US 美国3|@ripaojiedian"
+      - "[64ms] US 美国2|@ripaojiedian"
+      - "[76ms] ES 5.188.181.201-5267"
+      - "[77ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[77ms] ES 5.188.181.201-7486"
+      - "[79ms] ES 5.188.181.201-7484"
+      - "[80ms] GB [www.v2nodes.com] ss-GB-"
+      - "[81ms] GB [www.v2nodes.com] ss-GB-"
+      - "[82ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[82ms] GB [www.v2nodes.com] ss-GB-"
+      - "[82ms] GB [www.v2nodes.com] ss-GB-"
+      - "[85ms] GB [www.v2nodes.com] ss-GB-"
+      - "[88ms] NL [www.v2nodes.com] ss-NL-"
+      - "[89ms] NL [www.v2nodes.com] ss-NL-"
+      - "[90ms] FR [www.v2nodes.com] ss-FR-"
+      - "[90ms] GB [www.v2nodes.com] ss-GB-"
+      - "[90ms] GB [www.v2nodes.com] ss-GB-"
+      - "[90ms] US [www.v2nodes.com] ss-US-"
+      - "[91ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[91ms] NL 109.201.152.181-0162"
+      - "[92ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[92ms] FR [www.v2nodes.com] ss-FR-"
+      - "[92ms] FR [www.v2nodes.com] ss-FR-"
+      - "[93ms] US 美国 | USA #7"
+      - "[94ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[94ms] FR [www.v2nodes.com] ss-FR-"
+      - "[100ms] ES [www.v2nodes.com] ss-ES-"
+      - "[103ms] AT [www.v2nodes.com] ss-AT-"
+      - "[103ms] CH [www.v2nodes.com] ss-CH-"
+      - "[103ms] FI [www.v2nodes.com] ss-FI-"
+      - "[103ms] IT 意大利 | ITA #6"
+      - "[103ms] NO [www.v2nodes.com] ss-NO-"
+      - "[104ms] AT [www.v2nodes.com] ss-AT-"
+      - "[104ms] IT 意大利 | ITA #2"
+      - "[105ms] IT 意大利 | ITA #8"
+      - "[105ms] IT 意大利 | ITA #3"
+      - "[107ms] CH [www.v2nodes.com] ss-CH-"
+      - "[107ms] -- 🏳[www.v2nodes.com] ss- #"
+      - "[107ms] IT [www.v2nodes.com] ss-IT-"
+      - "[108ms] ES [www.v2nodes.com] ss-ES-"
+      - "[111ms] CH [www.v2nodes.com] trojan"
 
 rules:
   - GEOIP,CN,DIRECT

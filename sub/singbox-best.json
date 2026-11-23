@@ -7,350 +7,62 @@
    "type": "selector",
    "tag": "选择",
    "outbounds": [
-    "[103ms] IT 意大利 | ITA #1",
-    "[103ms] IT 意大利 | ITA #3",
-    "[103ms] IT 意大利 | ITA #6",
-    "[599ms] -- [www.v2nodes.com] trojan",
-    "[25ms] CA [www.v2nodes.com] ss-CA-",
-    "[26ms] CA [www.v2nodes.com] ss-CA-",
-    "[26ms] CA [www.v2nodes.com] ss-CA-",
-    "[26ms] CA [www.v2nodes.com] ss-CA-",
-    "[75ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[75ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[75ms] GB [www.v2nodes.com] ss-GB-",
-    "[76ms] GB [www.v2nodes.com] ss-GB-",
-    "[76ms] GB [www.v2nodes.com] ss-GB-",
-    "[79ms] ES 5.188.181.201-7832",
-    "[79ms] ES 5.188.181.201-0233",
-    "[80ms] GB [www.v2nodes.com] ss-GB-",
-    "[80ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[81ms] NL [www.v2nodes.com] ss-NL-",
-    "[81ms] US [www.v2nodes.com] ss-US-",
-    "[81ms] ES 5.188.181.201-0231",
-    "[84ms] FR [www.v2nodes.com] ss-FR-",
-    "[84ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[84ms] NL 109.201.152.181-0171",
-    "[85ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[85ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[86ms] FR [www.v2nodes.com] ss-FR-",
-    "[87ms] NL [www.v2nodes.com] ss-NL-",
-    "[91ms] ES [www.v2nodes.com] ss-ES-",
-    "[91ms] FR [www.v2nodes.com] ss-FR-",
-    "[93ms] FR [www.v2nodes.com] ss-FR-",
-    "[93ms] NO [www.v2nodes.com] ss-NO-",
-    "[94ms] ES [www.v2nodes.com] vless-",
-    "[98ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[99ms] CH [www.v2nodes.com] ss-CH-",
-    "[101ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[101ms] IT [www.v2nodes.com] ss-IT-",
-    "[102ms] AT [www.v2nodes.com] ss-AT-",
-    "[102ms] CH [www.v2nodes.com] ss-CH-",
-    "[103ms] IT 3|1.9MB/s",
-    "[103ms] IT 意大利 | ITA #5",
-    "[103ms] IT 意大利 | ITA #2",
-    "[103ms] IT [www.v2nodes.com] ss-IT-",
-    "[104ms] AT [www.v2nodes.com] ss-AT-",
-    "[106ms] IT [www.v2nodes.com] ss-IT-",
-    "[107ms] IT 意大利 | ITA #4",
-    "[108ms] ES [www.v2nodes.com] ss-ES-",
-    "[109ms] -- 🏳[www.v2nodes.com] ss- #",
-    "[134ms] FI [www.v2nodes.com] ss-FI-",
-    "[148ms] HK [www.v2nodes.com] ss-HK-",
-    "[156ms] JP [www.v2nodes.com] ss-JP-",
+    "[118ms] IT 意大利 | ITA #3",
+    "[119ms] IT 1|3.5MB/s",
+    "[119ms] IT 意大利 | ITA #2",
+    "[119ms] IT 意大利2|@ripaojiedian",
+    "[41ms] -- 🏳[www.v2nodes.com] ss- #",
+    "[41ms] CA [www.v2nodes.com] ss-CA-",
+    "[41ms] CA [www.v2nodes.com] ss-CA-",
+    "[41ms] CA [www.v2nodes.com] ss-CA-",
+    "[41ms] CA [www.v2nodes.com] ss-CA-",
+    "[41ms] CA [www.v2nodes.com] ss-CA-",
+    "[86ms] GB [www.v2nodes.com] ss-GB-",
+    "[90ms] GB [www.v2nodes.com] ss-GB-",
+    "[90ms] GB [www.v2nodes.com] ss-GB-",
+    "[93ms] GB [www.v2nodes.com] ss-GB-",
+    "[94ms] GB [www.v2nodes.com] ss-GB-",
+    "[95ms] GB [www.v2nodes.com] ss-GB-",
+    "[96ms] FR [www.v2nodes.com] ss-FR-",
+    "[97ms] GB [www.v2nodes.com] ss-GB-",
+    "[97ms] US [www.v2nodes.com] ss-US-",
+    "[97ms] ES 5.188.181.201-0245",
+    "[99ms] NL [www.v2nodes.com] ss-NL-",
+    "[99ms] ES 5.188.181.201-0243",
+    "[100ms] FR [www.v2nodes.com] ss-FR-",
+    "[100ms] FR [www.v2nodes.com] ss-FR-",
+    "[100ms] FR [www.v2nodes.com] ss-FR-",
+    "[101ms] GB [www.v2nodes.com] ss-GB-",
+    "[101ms] NL [www.v2nodes.com] ss-NL-",
+    "[102ms] FR [www.v2nodes.com] ss-FR-",
+    "[102ms] NL [www.v2nodes.com] ss-NL-",
+    "[102ms] NL 109.201.152.181-0132",
+    "[102ms] ES 5.188.181.201-0244",
+    "[104ms] FR [www.v2nodes.com] ss-FR-",
+    "[105ms] NL [www.v2nodes.com] ss-NL-",
+    "[109ms] ES [www.v2nodes.com] ss-ES-",
+    "[112ms] CH [www.v2nodes.com] ss-CH-",
+    "[112ms] IT [www.v2nodes.com] ss-IT-",
+    "[112ms] IT 意大利 | ITA #4",
+    "[113ms] ES [www.v2nodes.com] ss-ES-",
+    "[114ms] NL [www.v2nodes.com] ss-NL-",
+    "[115ms] IT [www.v2nodes.com] ss-IT-",
+    "[116ms] CH [www.v2nodes.com] trojan",
+    "[117ms] CH [www.v2nodes.com] ss-CH-",
+    "[117ms] IT [www.v2nodes.com] ss-IT-",
+    "[117ms] NO [www.v2nodes.com] ss-NO-",
+    "[119ms] AT [www.v2nodes.com] ss-AT-",
+    "[119ms] IT 意大利 | ITA #1",
+    "[119ms] IT 2|3.2MB/s",
+    "[120ms] IT [www.v2nodes.com] ss-IT-",
+    "[121ms] -- 🏳[www.v2nodes.com] ss- #",
+    "[123ms] -- 🏳[www.v2nodes.com] ss- #",
     "direct"
    ]
   },
   {
    "type": "ss",
-   "tag": "[103ms] IT 意大利 | ITA #1",
-   "server": "202.50.253.63",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[103ms] IT 意大利 | ITA #3",
-   "server": "202.50.253.99",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[103ms] IT 意大利 | ITA #6",
-   "server": "202.50.253.27",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "trojan",
-   "tag": "[599ms] -- [www.v2nodes.com] trojan",
-   "server": "sclass-01.catcat321.com",
-   "server_port": 20103,
-   "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-   "tls": {
-    "enabled": true,
-    "server_name": "hk.catxstar.com",
-    "insecure": false
-   }
-  },
-  {
-   "type": "ss",
-   "tag": "[25ms] CA [www.v2nodes.com] ss-CA-",
-   "server": "51.222.12.127",
-   "server_port": 445,
-   "method": "aes-256-gcm",
-   "password": "zDNVedRFPQexG9v"
-  },
-  {
-   "type": "ss",
-   "tag": "[26ms] CA [www.v2nodes.com] ss-CA-",
-   "server": "51.222.141.125",
-   "server_port": 445,
-   "method": "aes-256-gcm",
-   "password": "zDNVedRFPQexG9v"
-  },
-  {
-   "type": "ss",
-   "tag": "[26ms] CA [www.v2nodes.com] ss-CA-",
-   "server": "51.79.85.185",
-   "server_port": 8118,
-   "method": "aes-256-gcm",
-   "password": "cdBIDV42DCwnfIN"
-  },
-  {
-   "type": "ss",
-   "tag": "[26ms] CA [www.v2nodes.com] ss-CA-",
-   "server": "51.222.136.236",
-   "server_port": 8882,
-   "method": "aes-256-gcm",
-   "password": "kDWvXYZoTBcGkC4"
-  },
-  {
-   "type": "ss",
-   "tag": "[75ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "142.202.51.22",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[75ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "38.114.120.221",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[75ms] GB [www.v2nodes.com] ss-GB-",
-   "server": "185.176.206.9",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[76ms] GB [www.v2nodes.com] ss-GB-",
-   "server": "198.244.201.129",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[76ms] GB [www.v2nodes.com] ss-GB-",
-   "server": "198.244.202.215",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[79ms] ES 5.188.181.201-7832",
-   "server": "5.188.181.201",
-   "server_port": 9030,
-   "method": "aes-256-cfb",
-   "password": "GeregetR8cvQHzYr"
-  },
-  {
-   "type": "ss",
-   "tag": "[79ms] ES 5.188.181.201-0233",
-   "server": "5.188.181.201",
-   "server_port": 9040,
-   "method": "aes-256-cfb",
-   "password": "p9z5BVADH2YFs3MN"
-  },
-  {
-   "type": "ss",
-   "tag": "[80ms] GB [www.v2nodes.com] ss-GB-",
-   "server": "158.173.24.73",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "ss",
-   "tag": "[80ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "141.98.101.181",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "ss",
-   "tag": "[81ms] NL [www.v2nodes.com] ss-NL-",
-   "server": "151.241.19.29",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[81ms] US [www.v2nodes.com] ss-US-",
-   "server": "23.230.52.119",
-   "server_port": 42878,
-   "method": "chacha20-ietf-poly1305",
-   "password": "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
-  },
-  {
-   "type": "ss",
-   "tag": "[81ms] ES 5.188.181.201-0231",
-   "server": "5.188.181.201",
-   "server_port": 9031,
-   "method": "aes-256-cfb",
-   "password": "BwcAUZk8hUFAkDGN"
-  },
-  {
-   "type": "ss",
-   "tag": "[84ms] FR [www.v2nodes.com] ss-FR-",
-   "server": "167.17.64.22",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[84ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "151.241.19.36",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[84ms] NL 109.201.152.181-0171",
-   "server": "109.201.152.181",
-   "server_port": 443,
-   "method": "aes-128-cfb",
-   "password": "shadowsocks"
-  },
-  {
-   "type": "ss",
-   "tag": "[85ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "167.17.64.27",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[85ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "172.99.189.142",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[86ms] FR [www.v2nodes.com] ss-FR-",
-   "server": "38.109.228.110",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[87ms] NL [www.v2nodes.com] ss-NL-",
-   "server": "194.87.233.93",
-   "server_port": 46190,
-   "method": "chacha20-ietf-poly1305",
-   "password": "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
-  },
-  {
-   "type": "ss",
-   "tag": "[91ms] ES [www.v2nodes.com] ss-ES-",
-   "server": "66.163.118.103",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[91ms] FR [www.v2nodes.com] ss-FR-",
-   "server": "167.17.64.175",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[93ms] FR [www.v2nodes.com] ss-FR-",
-   "server": "23.162.152.22",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[93ms] NO [www.v2nodes.com] ss-NO-",
-   "server": "185.213.23.63",
-   "server_port": 990,
-   "method": "chacha20-ietf-poly1305",
-   "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-  },
-  {
-   "type": "vless",
-   "tag": "[94ms] ES [www.v2nodes.com] vless-",
-   "server": "196.199.122.2",
-   "server_port": 443,
-   "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
-   "tls": {
-    "enabled": true,
-    "server_name": "7aa271t.es1.h1clayd.click",
-    "insecure": false
-   }
-  },
-  {
-   "type": "ss",
-   "tag": "[98ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "167.17.71.167",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[99ms] CH [www.v2nodes.com] ss-CH-",
-   "server": "79.127.184.104",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[101ms] -- 🏳[www.v2nodes.com] ss- #",
-   "server": "186.190.215.251",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[101ms] IT [www.v2nodes.com] ss-IT-",
+   "tag": "[118ms] IT 意大利 | ITA #3",
    "server": "202.50.253.54",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -358,47 +70,15 @@
   },
   {
    "type": "ss",
-   "tag": "[102ms] AT [www.v2nodes.com] ss-AT-",
-   "server": "82.110.60.9",
+   "tag": "[119ms] IT 1|3.5MB/s",
+   "server": "202.50.253.63",
    "server_port": 19999,
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
    "type": "ss",
-   "tag": "[102ms] CH [www.v2nodes.com] ss-CH-",
-   "server": "23.166.88.127",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[103ms] IT 3|1.9MB/s",
-   "server": "202.50.253.72",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[103ms] IT 意大利 | ITA #5",
-   "server": "202.50.253.81",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[103ms] IT 意大利 | ITA #2",
-   "server": "202.50.253.90",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[103ms] IT [www.v2nodes.com] ss-IT-",
+   "tag": "[119ms] IT 意大利 | ITA #2",
    "server": "202.50.253.45",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -406,15 +86,363 @@
   },
   {
    "type": "ss",
-   "tag": "[104ms] AT [www.v2nodes.com] ss-AT-",
-   "server": "152.53.1.57",
-   "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
+   "tag": "[119ms] IT 意大利2|@ripaojiedian",
+   "server": "202.50.253.27",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
    "type": "ss",
-   "tag": "[106ms] IT [www.v2nodes.com] ss-IT-",
+   "tag": "[41ms] -- 🏳[www.v2nodes.com] ss- #",
+   "server": "51.222.141.125",
+   "server_port": 445,
+   "method": "aes-256-gcm",
+   "password": "zDNVedRFPQexG9v"
+  },
+  {
+   "type": "ss",
+   "tag": "[41ms] CA [www.v2nodes.com] ss-CA-",
+   "server": "51.79.85.185",
+   "server_port": 8118,
+   "method": "aes-256-gcm",
+   "password": "cdBIDV42DCwnfIN"
+  },
+  {
+   "type": "ss",
+   "tag": "[41ms] CA [www.v2nodes.com] ss-CA-",
+   "server": "51.222.200.165",
+   "server_port": 5000,
+   "method": "aes-256-gcm",
+   "password": "Y6R9pAtvxxzmGC"
+  },
+  {
+   "type": "ss",
+   "tag": "[41ms] CA [www.v2nodes.com] ss-CA-",
+   "server": "51.222.136.236",
+   "server_port": 8882,
+   "method": "aes-256-gcm",
+   "password": "kDWvXYZoTBcGkC4"
+  },
+  {
+   "type": "ss",
+   "tag": "[41ms] CA [www.v2nodes.com] ss-CA-",
+   "server": "51.79.49.116",
+   "server_port": 8882,
+   "method": "aes-256-gcm",
+   "password": "kDWvXYZoTBcGkC4"
+  },
+  {
+   "type": "ss",
+   "tag": "[41ms] CA [www.v2nodes.com] ss-CA-",
+   "server": "51.222.12.127",
+   "server_port": 445,
+   "method": "aes-256-gcm",
+   "password": "zDNVedRFPQexG9v"
+  },
+  {
+   "type": "ss",
+   "tag": "[86ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "38.114.120.221",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[90ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "198.244.201.129",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[90ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "185.176.206.9",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[93ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "158.173.24.73",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "ss",
+   "tag": "[94ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "142.202.51.22",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[95ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "198.244.202.215",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[96ms] FR [www.v2nodes.com] ss-FR-",
+   "server": "167.17.64.22",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[97ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "141.98.101.181",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "ss",
+   "tag": "[97ms] US [www.v2nodes.com] ss-US-",
+   "server": "23.230.52.119",
+   "server_port": 42878,
+   "method": "chacha20-ietf-poly1305",
+   "password": "ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu"
+  },
+  {
+   "type": "ss",
+   "tag": "[97ms] ES 5.188.181.201-0245",
+   "server": "5.188.181.201",
+   "server_port": 9042,
+   "method": "aes-256-cfb",
+   "password": "S7KwUu7yBy58S3Ga"
+  },
+  {
+   "type": "ss",
+   "tag": "[99ms] NL [www.v2nodes.com] ss-NL-",
+   "server": "151.241.19.29",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[99ms] ES 5.188.181.201-0243",
+   "server": "5.188.181.201",
+   "server_port": 9030,
+   "method": "aes-256-cfb",
+   "password": "GeregetR8cvQHzYr"
+  },
+  {
+   "type": "ss",
+   "tag": "[100ms] FR [www.v2nodes.com] ss-FR-",
+   "server": "23.162.152.22",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[100ms] FR [www.v2nodes.com] ss-FR-",
+   "server": "172.99.189.142",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[100ms] FR [www.v2nodes.com] ss-FR-",
+   "server": "167.17.64.175",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[101ms] GB [www.v2nodes.com] ss-GB-",
+   "server": "141.98.101.178",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "ss",
+   "tag": "[101ms] NL [www.v2nodes.com] ss-NL-",
+   "server": "151.241.19.36",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[102ms] FR [www.v2nodes.com] ss-FR-",
+   "server": "38.109.228.110",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[102ms] NL [www.v2nodes.com] ss-NL-",
+   "server": "156.67.120.205",
+   "server_port": 51628,
+   "method": "chacha20-ietf-poly1305",
+   "password": "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
+  },
+  {
+   "type": "ss",
+   "tag": "[102ms] NL 109.201.152.181-0132",
+   "server": "109.201.152.181",
+   "server_port": 443,
+   "method": "aes-128-cfb",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "ss",
+   "tag": "[102ms] ES 5.188.181.201-0244",
+   "server": "5.188.181.201",
+   "server_port": 9040,
+   "method": "aes-256-cfb",
+   "password": "p9z5BVADH2YFs3MN"
+  },
+  {
+   "type": "ss",
+   "tag": "[104ms] FR [www.v2nodes.com] ss-FR-",
+   "server": "167.17.64.27",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[105ms] NL [www.v2nodes.com] ss-NL-",
+   "server": "82.38.31.46",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "ss",
+   "tag": "[109ms] ES [www.v2nodes.com] ss-ES-",
+   "server": "66.163.118.103",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[112ms] CH [www.v2nodes.com] ss-CH-",
+   "server": "186.190.215.251",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[112ms] IT [www.v2nodes.com] ss-IT-",
+   "server": "57.131.27.21",
+   "server_port": 8388,
+   "method": "aes-256-gcm",
+   "password": "itzvpn@321"
+  },
+  {
+   "type": "ss",
+   "tag": "[112ms] IT 意大利 | ITA #4",
+   "server": "202.50.253.99",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[113ms] ES [www.v2nodes.com] ss-ES-",
+   "server": "167.17.71.167",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[114ms] NL [www.v2nodes.com] ss-NL-",
+   "server": "77.221.132.206",
+   "server_port": 24759,
+   "method": "chacha20-ietf-poly1305",
+   "password": "hCgbUnMaoAfSgvE8IKdnGu"
+  },
+  {
+   "type": "ss",
+   "tag": "[115ms] IT [www.v2nodes.com] ss-IT-",
+   "server": "202.50.253.36",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "trojan",
+   "tag": "[116ms] CH [www.v2nodes.com] trojan",
+   "server": "208.69.78.33",
+   "server_port": 443,
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "server_name": "courses.yourultimateprofessionalcareerhub.com",
+    "insecure": false
+   }
+  },
+  {
+   "type": "ss",
+   "tag": "[117ms] CH [www.v2nodes.com] ss-CH-",
+   "server": "23.166.88.127",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[117ms] IT [www.v2nodes.com] ss-IT-",
+   "server": "202.50.253.72",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[117ms] NO [www.v2nodes.com] ss-NO-",
+   "server": "185.213.23.63",
+   "server_port": 990,
+   "method": "chacha20-ietf-poly1305",
+   "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+  },
+  {
+   "type": "ss",
+   "tag": "[119ms] AT [www.v2nodes.com] ss-AT-",
+   "server": "82.110.60.9",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[119ms] IT 意大利 | ITA #1",
+   "server": "202.50.253.81",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[119ms] IT 2|3.2MB/s",
+   "server": "202.50.253.90",
+   "server_port": 19999,
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "type": "ss",
+   "tag": "[120ms] IT [www.v2nodes.com] ss-IT-",
    "server": "185.164.175.81",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -422,23 +450,7 @@
   },
   {
    "type": "ss",
-   "tag": "[107ms] IT 意大利 | ITA #4",
-   "server": "202.50.253.36",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[108ms] ES [www.v2nodes.com] ss-ES-",
-   "server": "79.127.139.242",
-   "server_port": 19999,
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "type": "ss",
-   "tag": "[109ms] -- 🏳[www.v2nodes.com] ss- #",
+   "tag": "[121ms] -- 🏳[www.v2nodes.com] ss- #",
    "server": "138.199.55.243",
    "server_port": 19999,
    "method": "aes-256-gcm",
@@ -446,27 +458,11 @@
   },
   {
    "type": "ss",
-   "tag": "[134ms] FI [www.v2nodes.com] ss-FI-",
-   "server": "213.176.92.148",
-   "server_port": 40647,
-   "method": "aes-256-gcm",
-   "password": "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
-  },
-  {
-   "type": "ss",
-   "tag": "[148ms] HK [www.v2nodes.com] ss-HK-",
-   "server": "209.248.57.105",
+   "tag": "[123ms] -- 🏳[www.v2nodes.com] ss- #",
+   "server": "152.53.1.57",
    "server_port": 8388,
-   "method": "aes-256-gcm",
-   "password": "AMok40FfaM+Ikwre16psBpVk6JHxsQZw"
-  },
-  {
-   "type": "ss",
-   "tag": "[156ms] JP [www.v2nodes.com] ss-JP-",
-   "server": "149.22.87.204",
-   "server_port": 443,
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
+   "method": "chacha20-ietf-poly1305",
+   "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
   },
   {
    "type": "direct",
